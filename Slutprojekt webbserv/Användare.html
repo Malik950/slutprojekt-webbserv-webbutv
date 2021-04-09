@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Användare</title>
+</head>
+<body>
+  <div class="topnav">
+    <a class="active" href="#index.html">Hem</a>
+    <a href="#Formulär.html">Formulär</a>
+    <a href="#Artiklar.html">Artiklar</a>
+    <a href="#Användare.html">Användare</a>
+    <a href="#OmBloggen.html">Om Bloggen</a>
+  </div>
+
+  <form action="action_page.php">
+    <div class="container">
+      <h1 registrera></h1>
+      <p>Fyll i formuläret för att skapa användare</p>
+      <hr>
+
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Skriv Email" name="email" id="email" required>
+
+      <label for="password"><b>Lösenord</b></label>
+      <input type="text" placeholder="Skriv Lösenord" name="password" id="password" required>
+
+      <label for="password-repeat"><b>Skriv lösenord igen</b></label>
+      <input type="text" placeholder="Skriv lösenord igen" name="password-repeat" id="password-repeat" required>
+      <hr>
+
+      <button type="submit" class="registerbtn">registrera</button>
+    </div>
+  </form>
+  
+</body>
+</html>
