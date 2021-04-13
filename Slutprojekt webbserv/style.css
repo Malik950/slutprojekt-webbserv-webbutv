@@ -43,7 +43,7 @@ body {
 }
 
 .topnav {
-  background-color: #333;
+  background-color: #ddd;
   overflow: hidden;
 }
 
@@ -75,7 +75,7 @@ body {
 
 .textcolumn {
   margin-bottom: 100px;
-  text-align: end;
+  text-align: bottom;
   padding-bottom: 300px;
 }
 
