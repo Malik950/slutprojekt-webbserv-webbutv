@@ -19,11 +19,12 @@ li a {
 .row {
   display: -webkit-flex;
   display: flex;
+  height: 10vh;
 }
 
 .column {
   padding: 10px;
-  height: 300px;
+  height: 55vh;
 }
 
 /* kolumnen mot höger och vänster */
@@ -57,7 +58,7 @@ li a {
 }
 
 /* Remove extra left and right margins, due to padding */
-.row {margin: 0 -5px;}
+.row {margin:100px;}
 
 /* Clear floats after the columns */
 .row:after {
